@@ -17,13 +17,32 @@ namespace Ex2Lab1
 {
     class Services
     {
-        enum VEHICLE
-        {
-            mota,
-            bike
-        }
+        #region ATTRIBUTES
+            int service, vehicle, nifCliente;
+            #endregion
+                
+        #region CONSTRUTORES
+                // metodo insere serviço
+                /// <summary>
+                /// Construtor para dados vindos do exterior
+                /// </summary>
+                /// <param name="s">Tipo de serviço 1-Limpeza 2-Substituicao 3-Reparacao 4-Abate</param>
+                /// <param name="v">Tipo de veiculo 1-Motorizada 2-Bicicleta</param>
+                /// <param name="n">Contribuinte do Cliente</param>
+                /// <param name="phone">Numero de telefone do cliente</param>
+                public Services(string s, int v, int n)
+            {
+                
+            }
+        #endregion
 
 
         
     }
 }
+
+/*enum VEHICLE
+        {
+            mota,
+            bike
+        }*/
